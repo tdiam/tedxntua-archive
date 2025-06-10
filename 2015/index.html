@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<!--Site created by Dimitris Karagiannis (@MitchKarajohn) and Christos Konstantinidis (@Chris_Kon_)-->
+<!--Site not designed by the above -->
+<!-- Press UpUpDownDownLeftRightLeftRightBA now-->
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<!-- If you delete this meta tag World War Z will become a reality -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TEDxNTUA</title>
+
+		<link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+
+		<link rel="stylesheet" href="./css/vendor/normalize.css">
+		<link rel="stylesheet" href="./css/vendor/foundation.css">
+		<link rel="stylesheet" href="./css/vendor/animate.css">
+		<link rel="stylesheet" href="./css/app.css">
+		<script src="./js/vendor/jquery.js"></script>
+		<script src="./js/vendor/modernizr.js"></script>
+
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="./css/vendor/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="./js/vendor/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+	</head>
+
+	<body>
+
+		<!-- body content here -->
+
+		<main>
+
+
+			<section id="landing-section">
+				<img id="bg" src="./img/bg-final-web.png" />
+				<img id="fallback-img" src="./img/last-frame.png" />
+
+				<video id="landing-video" preload='auto' class="transparent">
+					<source src="./media/new-video.webm" type="video/webm">
+				</video>
+				<script>
+						(function () {
+							var isFF = (window.InstallTrigger) ? true : false;
+							if (isFF) {
+								document.body.classList.add('firefox');
+							}
+						})();
+				</script>
+				<div id="main-title" style="display: none">
+					TEDxNTUA
+				</div>
+				<div id="sub-title" style="display: none">
+					Chain Reactions
+				</div>
+			</section>
+
+			<div id="nav-bar" class="sticky">
+				<nav class="top-bar" data-topbar role="navigation" data-options="scrolltop:false">
+					<ul class="title-area">
+						<li class="name">
+							<h1>
+								<a href="#">
+									<img id="logo" src="./img/tex-x-logo.png" />
+								</a>
+							</h1>
+						</li>
+						<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+						<li class="toggle-topbar menu-icon"><a href="#navbar"><span>Menu</span></a></li>
+					</ul>
+
+					<section class="top-bar-section" data-magellan-expedition="">
+						<!-- Right Nav Section -->
+						<ul class="">
+							<li data-magellan-arrival="home-section">
+								<a href="#home-section">
+									HOME
+								</a>
+							</li>
+							<li data-magellan-arrival="speakers-section">
+								<a href="#speakers-section">
+									SPEAKERS
+								</a>
+							</li>
+							<li data-magellan-arrival="where-section">
+								<a href="#where-section">
+									WHEN &amp; WHERE
+								</a>
+							</li>
+							<!-- INSTAGRAM FEED BROKEN
+							<li data-magellan-arrival="sofar-section">
+								<a href="#sofar-section">
+									MEANWHILE
+								</a>
+							</li>
+-->
+							<li data-magellan-arrival="creds-section">
+								<a href="#creds-section">
+									SUPPORTERS
+								</a>
+							</li>
+							<li data-magellan-arrival="team-section">
+								<a href="#team-section">
+									THE TEAM
+								</a>
+							</li>
+							<li data-magellan-arrival="about-section">
+								<a href="#about-section">
+									ABOUT
+								</a>
+							</li>
+							<li data-magellan-arrival="contact-us-section">
+								<a href="#contact-us-section">
+									CONTACT
+								</a>
+							</li>
+						</ul>
+
+
+						<!-- Left Nav Section -->
+						<!--                         <ul class="left">
+<li><a href="#">Left Nav Button</a></li>
+</ul> -->
+					</section>
+				</nav>
+			</div>
+
+
+
+
+
+
+			<section id="home-section" data-magellan-destination="home-section">
+
+				<div class="row">
+					<h2 class="header-heavy">
+						<img src="./img/logo_name.jpg" alt="Chain Reactions" />
+					</h2>
+					<p class="text-center prologue">
+						<em>A butterfly flaps it's wings in China and a tornado rises in midwestern America. <br />
+							Highly
+							unlikely, although one can't underestimate the sensitive dependency between the smallest
+							of our actions and their impact on the bigger picture.</em>
+					</p>
+					<p class="text-justify">
+						Introducing TEDx NTUA, we want to look deep into the ways our individual creativity
+						changes the world around us. Experiment with different reagents and ignite the proliferation
+						we want to see in society. Push the first domino and admire the intricate way the rest fall
+						into. Our theme this year is Chain Reactions. Empowered by the cohesion that binds the
+						disciplines of engineering, we hope to plant a seed of hope and harvest a forest of endless
+						possibilities.
+					</p>
+					<p id="join-us" class="text-center underliner">
+						Join us and let's mold ideas into progress, into <strong class="fauxbold">history</strong>.
+					</p>
+				</div>
+			</section>
+
+			<section id="speakers-section" class="alt" data-magellan-destination="speakers-section">
+				<div class="row">
+					<h2 class="overliner">
+						<strong>3</strong> <span class="thin">PHASES</span> <strong>.</strong> <strong>14</strong> <span
+							class="light">SPEAKERS</span>
+					</h2>
+					<div id="speakers-wrapper" class="bordered--heavy">
+						<div class="row" id="initiation">
+							<div class="speech-phase left">
+								<div class="title">INITIATION</div>
+								<div class="description">
+									A free radical is produced.
+								</div>
+							</div>
+							<ul id="initiation-grid" class="small-block-grid-5 right speakers">
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="initiation"
+										data-name="Dimitris Fouskakis"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/fouskakis.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“If we have data, lets look at data. If all we have are opinions, lets go with mine. - Jim Barksdale”</div><div class='desc'> Assistant professor in the faculty of applied mathematics and natural sciences</div></div><div class='medium-8 columns bio'>Dimitris Fouskakis is an Associate professor of Applied Statistics in the department of Mathematics, at the National Technical University of Athens. His research activity contains statistics, decision theory, biostatistics, epidemiology etc. He is a member of the International Society of Bayesian Statistics, of the Greek Statistical Institute and of the Greek Mathematical Society.</div></div>">
+										<img src="./img/speakers/fouskakis.png" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="initiation"
+										data-name="Yorgos Koutsoyannopoulos"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/koutsogiano.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“High-tech made in Greece”</div><div class='desc'> Electrical Engineer, Entrepreneur, Motivator </div></div><div class='medium-8 columns bio'>Dr. Yorgos Koutsoyannopoulos is an electrical engineer by NTUA education and entrepreneur deep in heart. He co-founded HELIC in 2000 to launch a true high-tech offspring from Greece and go global. With his fellow team members he attracted renowned institutional investors and business angels from Silicon Valley, Japan and Europe, and managed to win as customers 12 of the 20 biggest global semiconductor corporations. With endless perseverance and hard work he has proven that “global high-tech made in Greece” is feasible and an idea born in a NTUA research lab can spark the fire of great products that attract investors and users from all over the world.</div></div>">
+										<img src="./img/speakers/koutsogiano.png" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="initiation"
+										data-name="Elias D. Kouvelas"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/kouvelas.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div style='font-size:1.3em!important' class='quote'>“Brain’s structure is a product of chain reactions that take place in  both the conscious and unconscious level.”</div><div class='desc'> Emeritus professor of physiology in the faculty of medicine University of Patras </div></div><div class='medium-8 columns bio'>Dr. Elias D. Kouvelas, MD, PhD, is emeritus professor of physiology in the faculty of medicine, University of Patras, Greece, having served as its chairman from 1978 to 2005. After his Ph.D. degree his continued his studies as a scholar in the University College (London), as well as in the University of North Carolina. He has worked as a researcher in the Universities of Harvard, UCSF, Oxford and NYU. He is a member of Dana Alliance for Brain Initiatives and he has also served as a member of the National Advisory Research Board. Recent research activities focus on the study of the molecular disturbances in experimental models of degenerative diseases of the brain, stem cell transplantation in the brain of experimental models of disease Parkinson, the study of disorders of speech of patients suffering from Parkinson's disease and study of the impact of early experiences in the molecular structure of the brain of adults. Alongside, during the past few years his main avocation involves the problem of the relationship between brain and consciousness.</div></div>">
+										<img src="./img/speakers/kouvelas.png" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="initiation" data-name="Daphne Becket"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/becket.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div style='font-size:1.4em!important' class='quote'>“The secret of change is to focus all your energy not on fighting the old but on building the new. - Socrates”</div><div class='desc'> Architect </div></div><div class='medium-8 columns bio'>Daphne Becket, daughter of the prominent Greek junta resistant Maria Becket, is a citizen of the world as well as an architect of the world. Having worked in the UK, the US, Switzerland, the Middle East and Indonesia, her passion for the preservation of our national cultural heritage brought her back to Greece for the restoration of the windmills of the monastery of St John in Patmos, for which the country received a Europa Nostra Award.</div></div>">
+										<img src="./img/speakers/becket.png" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="initiation" data-name="Israel Dejene"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/israel.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“Dream big, Think positive”</div><div class='desc'> Musician, Performer </div></div><div class='medium-8 columns bio'>Israel Dejene was born and raised in Addis Ababa, Ethiopia. After completing his secondary education he continued his studies in Addis Ababa University where he graduated with a Bachelor Degree (BA) in Music. In 2005 he founded “Megabiskate” or former known as “Ethioskate”, a skateboarding movement, created to engage and inspire the children in Ethiopia to stay positive and keep them away from the troubles on the streets.</div></div>">
+										<img src="./img/speakers/israel.png" />
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="row" id="propagation">
+							<div class="speech-phase left">
+								<div class="title">PROPAGATION</div>
+								<div class="description">
+									The activity is transfered from particle to particle, in a chain manner.
+								</div>
+							</div>
+							<ul id="propagation-grid" class="small-block-grid-5 right speakers">
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="propagation"
+										data-name="Fooolish Designers"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/foolish.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“Everything you do affects people’s lives, do something extraordinary. ”</div><div class='desc'> Design Agency</div></div><div class='medium-8 columns bio'>Yannis Ampelas, Yannis Choulakis and Jim Zardakas are the founders of Fooolish Design Agency. Two graphic designers and a software engineer, respectively. Aside from the personal style and aesthetic touch they put in every project they undertake, the one they're doing on the side is aimed to change how we read the news. Through NEWSLEXIA, the fooolish designers try to inform and spread the news, not through articles and reports, but with an image, keeping us informed and thrusting news reporting into the future.</div></div>">
+										<img src="./img/speakers/foolish.png" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="propagation"
+										data-name="Thanos Vlastos"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/vlastos.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div style='font-size:1.3em!important' class='quote'>“The fun, the colors, the joy of life, are kept hidden inside our souls, just like our real needs for the city. But the city is for every one's own social body. It demands smiles, companions, bicycles, games.” </div><div class='desc'> Professor of urban and transport design at NTUA</div></div><div class='medium-8 columns bio'>Τhanos Vlastos is a professor of urban and transportation planning in National Technical University of Athens , Rural and Surveying engineering School. In 2000 he founded NTUA's Sustainable Mobility Unit ( bicycle , walking , public transportation). Today, 14 years later, SMU has gained vast experience in research and applications in promoting alternative transportation means (with emphasis on bicycle) and has become the most prestigious Greek Research Unit in this field.</div></div>">
+										<img src="./img/speakers/vlastos.png" data-phase="propagation" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="propagation"
+										data-name="Adrianos Golemis"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/golemis.jpg'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“Even the smallest of our decisions can have a huge impact”</div><div class='desc'> Medical Researcher for ESA in Antarctica</div></div><div class='medium-8 columns bio'>He is one of the two Greeks ever to have overwintered on Antarctica. A doctor, Adrian Golemis was selected in 2013 by the European Space Agency to conduct research at Concordia Base, a remote Franco-Italian research station in the heart of the Antarctic continent. Spending 6 months in one of the coldest and one of the most desolate places in Earth he studies human performance and adaptation in extreme environment. Confinement, low temperatures and absence of light's implications to sleeping patterns and physical strength are Adrian's main area of study. His research is gaining knowledge that will help future pioneers take their first step on Mars and beyond.</div></div>">
+										<img src="./img/speakers/golemis.jpg" data-phase="propagation" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="propagation"
+										data-name="Jon Mark Walls"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/walls.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div style='font-size:1.3em!important' class='quote'>“The rapid advancement of new technology and approaches gives us both the opportunity to move ever closer to, or increasingly distant from, the democratic ideal.”</div><div class='desc'> GovFaces CEO </div></div><div  class='medium-8 columns bio'>Jon Mark Walls is a social entrepreneur, lecturer and speechwriter who is driven by the idea that better communication can lead to better politics. Having worked for the United Nations as well as various governments and NGOs, he is currently the CEO of GovFaces which seeks to improve interactive communication between citizens and representatives. Based in Geneva, Switzerland, Jon Mark has sought to blend traditional communications approaches with new technologies and develop ways of delivering these across the full spectrum of social, cultural and political environments.</div></div>">
+										<img src="./img/speakers/walls.png" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="propagation"
+										data-name="Engineers of the Earth"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/mtg.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“If you want to go fast go alone, if you want to go far go together (African proverb)”</div><div class='desc'> NGO </div></div><div  class='medium-8 columns bio'>The Engineers of the Earth (EngoE) is a non-governmental organization founded in Athens in 2008. It is a civil, nonprofit association whose goal is to provide technical support and ‘know how’ to developing countries and international nonprofit, nongovernmental organizations. EngoE aims to combat poverty and contribute to the socioeconomic development of developing societies by finding technical solutions adjusted to local conditions, with great respect for the environment.</div></div>">
+										<img src="./img/speakers/mtg.png" />
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="row" id="termination">
+							<div class="speech-phase left">
+								<div class="title">TERMINATION</div>
+								<div class="description">
+									Chemical activity transferring ceases, bringing the chain reaction to a halt.
+								</div>
+							</div>
+							<ul id="termination-grid" class="small-block-grid-5 right speakers">
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="termination"
+										data-name="Ashley Dove-Jay" data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/dale.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“Transforming Mars into a second home is our next logical step”</div><div class='desc'>Aerospace Engineer</div></div><div class='medium-8 columns bio'>Ashley Dove-Jay is a PhD researcher in 'green' morphing
+									aerospace technologies at the University of Bristol. He is
+									a gradute of the University of Liverpool and the
+									International Space University, reading Aerospace
+									Engineering and Space Policy, Law & Economics.<br /><br />
+									Ashley has led various NASA/ESA-related projects: from
+									spacecraft radiation hardening to space weather disaster
+									mitigation. Most notably, he led an extensive astronautson-Mars
+									simulated expedition in the high-altitude Utah
+									Desert at the Mars Desert Research Station in
+									collaboration with more than two dozen scientific and
+									academic institutes.</div></div>"><img src="./img/speakers/dale.png" /></div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="termination"
+										data-name="Theodosis Tasios"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/tassios.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“Let’s reflect on ourselves and each other. ”</div><div class='desc'>Civil Engineer, Scholar, Writer, Philosopher</div></div><div class='medium-8 columns bio'>Theodosis Tasios has been a unique element and has significantly contributed in the professional and scientific growth of our country. He was the teacher of thousands of engineers, has published hundreds of papers in the field of Soil Mechanics, Concrete Technology and Ancient Greek Technology. What is remarkable, is that he did not remain attached solely to his science but he investigated several philosophical, pedagogical and linguistic issues as well as sociopolitical as a newspaper’s editor.</div></div>">
+										<img src="./img/speakers/tassios.png" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="termination" data-name="Athina Pitta"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/athinapitta.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div class='quote'>“Love resposibility. Say: myself, i am obliged to save the world. It will be my fault if it fails.” - N. Kazantzakis. </div><div class='desc'> International Relations</div></div><div class='medium-8 columns bio'>Athina has studied Public International Law in France and International Relations in Greece. She speaks fluently Greek, English, French, Turkish, and she is a beginner in Spanish and Arabic. She has lived and worked in France, Belgium and Turkey. Her international work experience accompanied with her avocation with the online learning of both International Law and foreign languages have inspired her to introduce linguistic tourism to the world and create the Startup “Glossopolis”. Glossopolis is an e-learning platform that teaches the greek language to tourists, motivating them to use it while at their destination, transcending from a trip to an international experience and from being a tourist to being a traveller.</div></div>">
+										<img src="./img/speakers/athinapitta.png" data-phase="termination" />
+									</div>
+								</li>
+								<li>
+									<div class="thumb-wrapper speaker" data-phase="termination"
+										data-name="Ignatios Fotiou"
+										data-text="<div class='small-12 medium-3 columns photo'><img src='./img/speakers/fotiou.png'/></div><div class='small-12 medium-9 columns text'><div class='medium-4 columns'><div style='font-size:1.3em!important' class='quote'>“Think out of the box, use your imagination and be creative. Add passion for innovation and you have wonderful conceptions. There is not a standard recipe to happiness though you create your own.” </div><div class='desc'> Mechanical Engineer</div></div><div class='medium-8 columns bio'>Ignatios Fotiou is a founding member of the spin-off startup TOBEA (Think Out of the Box Engineering Applications), that came out of the Technical Mechanics Lab of the Mechanical & Aerospace Engineering department of the University of Patras, which specializes in applications to better the lives of people with disabilities. Ignatios helped with the conception and creation of Seatrack, a global innovation. The device helps people with disabilities access the sea through an solar powered moving seat. It won the first prize in the “Greece Innovates 2” competition and aspires to be installed in every beach in Greece, allowing access not only to the sea, but to life as well.</div></div>">
+										<img src="./img/speakers/fotiou.png" data-phase="termination" />
+									</div>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section id="where-section" data-magellan-destination="where-section">
+				<div class="row">
+					<div class="row">
+						<div class="medium-6 columns">
+							<h2 class="header-heavy">
+								<span class="underliner see-ya">SEE YOU</span> <br />
+								<span class="bigger">ON <span class="red">17/1</span></span>
+							</h2>
+							<div class="row">
+								<div id="countdown" class="text-center header-heavy bigger">
+									COUNTDOWN HERE
+								</div>
+							</div>
+							<div class="row text-center header-heavy at">
+								AT
+							</div>
+							<div class="row text-center">
+								<div class="medium-6 columns small-centered">
+									<a href="http://www.thehubevents.gr/" target="_blank">
+										<img src="./img/hub_logo.png" alt="HUB logo" />
+									</a>
+								</div>
+
+							</div>
+							<div class="row">
+
+								<a class="button medium-6 columns small-centered" id="apply-for-ticket" class="expand"
+									data-reveal-id="ticket-form"
+									href="https://www.eventora.com/en/Events/tedxntua2015LivestreamAndExpo"
+									target="_blank">
+									APPLY FOR A TICKET
+								</a>
+								<div id="ticket-form" class="reveal-modal" data-reveal>
+									<div id="apply-for-main-event" class="fauxfocus button soldout disabled">
+										Apply for the main event
+									</div>
+									<p>
+										Witness the speakers live. Limited tickets will be available.
+									</p>
+									<a id="apply-for-live-stream" class="fauxfocus button soldout disabled">
+										Apply for the Expo and the Livestream
+									</a>
+									<p>
+										Experience the event through live streaming and the TEDxNTUA expo!
+									</p>
+									<a id="apply-for-workshops" class="fauxfocus button soldout disabled">
+										Apply for the co-lab design workshop
+									</a>
+									<p>
+										Be a designer for a day. Design NTUA's impact on the society.
+									</p>
+									<a id="apply-for-workshops" class="fauxfocus button soldout disabled">
+										Apply for the Hackathon
+									</a>
+									<p>
+										Use our data pool, code your brainchild and compete for the prize!
+									</p>
+									<a class="close-reveal-modal">&#215;</a>
+								</div>
+
+							</div>
+						</div>
+						<div class="medium-6 columns">
+							<iframe
+								class="bordered--heavy" height="450" style="border:0;width:100%"
+								allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.120216698469!2d23.70781657638255!3d37.97432370063935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bce12fc3755d%3A0xae6f805aaabf7194!2sTHE%20HUB%20EVENTS!5e0!3m2!1sen!2sus!4v1744233557303!5m2!1sen!2sus">
+							</iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- INSTAGRAM FEED BROKEN
+			<section id="sofar-section" data-magellan-destination="sofar-section" class="container">
+				<div class="row">
+
+					<div class="row">
+						<div class="medium-6 columns sticker-container">
+							<a href="" id="instafeed-full-image-link" target="_blank">
+								<img src="" id="instafeed-full-image" class="bordered--heavy transparent sticker" />
+							</a>
+						</div>
+
+						<div class="medium-6 columns">
+							<div class="row">
+								<h2 class="header-light">
+									SO FAR
+								</h2>
+							</div>
+							<ul id="instafeed" class="small-block-grid-2 medium-block-grid-5"></ul>
+							<button id="instafeed-more-button" class="hidden">
+								LOAD MORE
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+-->
+
+			<section id="creds-section" data-magellan-destination="creds-section">
+				<div class="row">
+					<div class="row">
+						<h2 class="header-light no-margin-top">
+							UNDER THE AUSPICES OF
+						</h2>
+						<div class="row">
+							<ul id="auspices-grid" class="small-block-grid-1 medium-block-grid-1">
+								<li><a href="http://www.ntua.gr/">
+										<img src="./img/logo_ntua.jpg" /></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<h2 class="header-light">
+							PARTNERS
+						</h2>
+						<div class="row">
+							<ul id="sponsors-grid" class="small-block-grid-1 medium-block-grid-3">
+								<li>
+									<a href="http://www.bosch.gr/" target="_blank">
+										<img src="./img/Partners/bosch.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.dei.gr/" target="_blank">
+										<img src="./img/Partners/deh.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.axa.gr/" target="_blank">
+										<img src="./img/Partners/axa.png" />
+									</a>
+								</li>
+								<li>
+									<a href="http://www.swarovski.com" target="_blank">
+										<img src="./img/Partners/swarovski.png" />
+									</a>
+								</li>
+								<li>
+									<a href="http://www.cosmote.gr" target="_blank">
+										<img src="./img/Partners/cosmote.png" />
+									</a>
+								</li>
+							</ul>
+
+						</div>
+
+						<div class="row">
+							<h2 class="header-light">
+								SPONSORS
+							</h2>
+							<div class="row">
+								<ul id="sponsors-grid" class="small-block-grid-1 medium-block-grid-2">
+									<li style="padding:0em!important;"><a href="http://www.vechro.gr/" target="_blank">
+											<img src="./img/Sponsors/vechro.png" /></a></li>
+									<li style="padding:0em!important;"><a href="http://www.sglycabettus.gr"
+											target="_blank">
+											<img src="./img/Sponsors/st-george.png" /></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<h2 class="header-light">
+								SUPPORTERS
+							</h2>
+							<div class="row">
+								<ul id="sponsors-grid" class="small-block-grid-1 medium-block-grid-3">
+									<li><a href="http://www.korres.com/" target="_blank">
+											<img src="./img/Supporters/korres3.png" /></a></li>
+									<li><a href="http://booklab8.blogspot.com" target="_blank">
+											<img src="./img/Supporters/booklab.png" /></a></li>
+									<li><a href="https://www.eventora.com" target="_blank">
+											<img src="./img/Supporters/eventora.jpg" /></a></li>
+									<li><a href="http://www.dimellocaffe.com" target="_blank">
+											<img src="./img/Supporters/dimello.jpg" /></a></li>
+									<li><a href="http://eclock.gr" target="_blank">
+											<img src="./img/Supporters/eclock.jpg" /></a></li>
+									<li><a href="http://www.greencola.gr" target="_blank">
+											<img src="./img/Supporters/greencola.png" /></a></li>
+									<li><a href="http://www.apollonion-bakery.gr/" target="_blank">
+											<img src="./img/Supporters/apollonion.png" /></a></li>
+									<li><a href="http://www.greencola.gr" target="_blank">
+											<img src="./img/Supporters/mple.png" /></a></li>
+									<li><a href="http://www.vikoswater.gr" target="_blank">
+											<img src="./img/Supporters/bikos.png" /></a></li>
+									<li><a href="http://www.enoworx.gr" target="_blank">
+											<img src="./img/Supporters/enoworx.png" /></a></li>
+									<li><a href="https://farmersrepublic.gr" target="_blank">
+											<img src="./img/Supporters/farmers.png" /></a></li>
+									<li>
+										<img src="./img/Supporters/travelove.png" />
+									</li>
+									<li><a href="https://www.facebook.com/tortugafoodbar" target="_blank">
+											<img src="./img/Supporters/tortuga.png" /></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<h2 class="header-light">
+								GRAND AIR CARRIER SPONSOR
+							</h2>
+							<div class="row">
+								<ul id="supporters-grid" class="small-block-grid-1 medium-block-grid-3">
+									<li></li>
+									<li><a href="http://aegeanair.com/" target="_blank">
+											<img src="./img/Sponsors/aegean.png" /></a></li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<h2 class="header-light">
+								MEDIA PARTNERS
+							</h2>
+							<div class="row">
+								<ul id="media-partners-grid" class="small-block-grid-1 medium-block-grid-3">
+
+									<li><a href="http://www.iefimerida.gr/" target="_blank">
+											<img src="./img/Media_partners/iefimeridagr.png" />
+										</a></li>
+									<li>
+										<a href="http://www.in.gr/" target="_blank">
+											<img src="./img/Media_partners/ingr.png" /></a>
+									</li>
+									<li>
+										<a href="http://www.tovima.gr/" target="_blank">
+											<img src="./img/Media_partners/tobima.png" />
+										</a>
+									</li>
+									<li>
+										<a href="http://frapress.gr/" target="_blank">
+											<img src="./img/Media_partners/frapress.png" />
+										</a>
+									</li>
+									<li>
+										<a href="http://www.neolaia.gr/" target="_blank">
+											<img src="./img/Media_partners/neolaiagr.png" />
+										</a>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="team-section" data-magellan-destination="team-section">
+				<div class="row">
+					<h2 class="row header-bigass">
+
+						<strong>18</strong>
+
+					</h2>
+					<div class="row">
+						<div class="small-12 columns small-centered">
+							<ul id="team-grid" class="small-block-grid-2 medium-block-grid-3 large-block-grid-6">
+								<li data-name="Alexandros Karvouniaris">
+									<img src="./img/serious/alexandros-karvouniaris.png" />
+									<img src="./img/fun/alexandros-karvouniaris-fun.png" class="fun" />
+								</li>
+								<li data-name="Dimitris Konstantilieris">
+									<img src="./img/serious/dimitris-konstantilieris.png" />
+									<img src="./img/fun/dimitris-konstantilieris-fun.png" class="fun" />
+								</li>
+								<li data-name="Giannis Rizopoulos">
+									<img src="./img/serious/giannis-rizopoulos.png" />
+									<img src="./img/fun/giannis-rizopoulos-fun.png" class="fun" />
+								</li>
+								<li data-name="Lina Psarra">
+									<img src="./img/serious/lina-psarra.png" />
+									<img src="./img/fun/lina-psarra-fun.png" class="fun" />
+								</li>
+								<li data-name="Nefeli Emmanouilidi">
+									<img src="./img/serious/nefeli-emmanouilidi.png" />
+									<img src="./img/fun/nefeli-emmanouilidi-fun.png" class="fun" />
+								</li>
+								<li data-name="Thanos Ioannidis">
+									<img src="./img/serious/thanos-ioannidis.png" />
+									<img src="./img/fun/thanos-ioannidis-fun.png" class="fun" />
+								</li>
+								<li data-name="Christos Fotis">
+									<img src="./img/serious/christos-fotis.png" />
+									<img src="./img/fun/christos-fotis-fun.png" class="fun" />
+								</li>
+								<li data-name="Dimitris Zampopoulos">
+									<img src="./img/serious/dimitris-zampopoulos.png" />
+									<img src="./img/fun/dimitris-zampopoulos-fun.png" class="fun" />
+								</li>
+								<li data-name="Giorgos Vernardakis">
+									<img src="./img/serious/giorgos-vernardakis.png" />
+									<img src="./img/fun/giorgos-vernardakis-fun.png" class="fun" />
+								</li>
+								<li data-name="Mihalis Takopoulos">
+									<img src="./img/serious/mixalis-takopoulos.png" />
+									<img src="./img/fun/mixalis-takopoulos-fun.png" class="fun" />
+								</li>
+								<li data-name="Sophia Disiou">
+									<img src="./img/serious/sophia-disiou.png" />
+									<img src="./img/fun/sophia-disiou-fun.png" class="fun" />
+								</li>
+								<li data-name="Vanesa Chalastani">
+									<img src="./img/serious/vanesa-chalastani.png" />
+									<img src="./img/fun/vanesa-chalastani-fun.png" class="fun" />
+								</li>
+								<li data-name="Dimitra Rozi">
+									<img src="./img/serious/dimitra-rozi.png" />
+									<img src="./img/fun/dimitra-rozi-fun.png" class="fun" />
+								</li>
+								<li data-name="Giannis Papadogiannakis">
+									<img src="./img/serious/giannis-papadogiannakis.png" />
+									<img src="./img/fun/giannis-papadogiannakis-fun.png" class="fun" />
+								</li>
+								<li data-name="Ilias Theodorakis">
+									<img src="./img/serious/ilias-theodorakis.png" />
+									<img src="./img/fun/ilias-theodorakis-fun.png" class="fun" />
+								</li>
+								<li data-name="Moris Kalderon">
+									<img src="./img/serious/moris-kalderon.png" />
+									<img src="./img/fun/moris-kalderon-fun.png" class="fun" />
+								</li>
+								<li data-name="Stella Theodosopoulou">
+									<img src="./img/serious/stella-theodosopoulou.png" />
+									<img src="./img/fun/stella-theodosopoulou-fun.png" class="fun" />
+								</li>
+								<li data-name="Vasilis Koulatzidis">
+									<img src="./img/serious/vasilis-koulatzidis.png" />
+									<img src="./img/fun/vasilis-koulatzidis-fun.png" class="fun" />
+								</li>
+							</ul>
+						</div>
+					</div>
+					<h2 class="row header-bigass">
+						<span class="thin">AS</span> <strong>ONE</strong>
+					</h2>
+				</div>
+			</section>
+
+			<section id="about-section" data-magellan-destination="about-section">
+				<div class="row">
+					<div class="row">
+						<div class="medium-3 small-12 columns">
+							<h2 class="row header-heavy">
+
+								<strong class="red">ABOUT US</strong>
+
+							</h2>
+						</div>
+						<div class="medium-6 small-12 columns">
+							<dl class="tabs" data-tab="">
+								<dd class="small-4 columns active"><a href="#panel1">WHAT IS TED</a></dd>
+								<dd class="small-4 columns" columns=""><a href="#panel2">WHAT IS TEDx</a></dd>
+								<dd class="small-4 columns" columns=""><a href="#panel3">WHAT IS TEDxNTUA</a></dd>
+							</dl>
+							<div class="tabs-content">
+								<div class="content active" id="panel1">
+									<p>
+										TED is a nonprofit devoted to spreading ideas, usually in the form of short,
+										powerful talks (18 minutes or less).
+									</p>
+									<p>
+										TED began in 1984 as a conference where Technology, Entertainment and Design
+										converged, and today covers almost all topics -from science to business to
+										global issues- in more than 100 languages.
+									</p>
+
+									<p>
+										Meanwhile, independently run TEDx events help share ideas in communities around
+										the world. TED is a global community, welcoming people from every discipline and
+										culture who seek a deeper understanding of the world. We believe passionately in
+										the power of ideas to change attitudes, lives and, ultimately, the world.
+									</p>
+									<p>
+										On TED.com, we're building a clearing house of free knowledge from the world's
+										most inspired thinkers and a community of curious souls to engage with ideas and
+										each other, both online and at TED and TEDx events around the world.
+									</p>
+								</div>
+								<div class="content" id="panel2">
+									<p>
+										The TEDx Program is designed to help communities, organizations and individuals
+										to spark conversation and connection through local TED-like experiences.
+									</p>
+									<p>
+										At TEDx events, a screening of TED Talks videos - or a combination of live
+										presenters and TED Talks videos - sparks deep conversation and connections at
+										the local level. TEDx events are planned and coordinated independently, under a
+										free license granted by TED.
+									</p>
+									<p>
+										A TEDx event is a local gathering where live TED-like talks and videos
+										previously recorded at TED conferences are shared with the community. TEDx
+										events are fully planned and coordinated independently, on a
+										community-by-community basis. The content and design of each TEDx event is
+										unique and developed independently, but all of them have features in common.
+									</p>
+								</div>
+								<div class="content" id="panel3">
+									<p>TEDxNTUA is a university TEDx event, organized and hosted by the student
+										community of the National Technical Univesity of Athens.
+									</p>
+									<p>
+										TEDxNTUA aspires to become a beacon of innovation, creative thinking and social
+										progress. Bringing together storytellers, pioneers and artists, under the
+										auspices of the NTUA, promises a TED like experience that will inform, ignite
+										and inspire the minds of fellow students and Athenians.
+									</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="medium-3 small-12 columns">
+							<div class="row" id="more-stuff">
+								<div class="follow-us">
+									For Further information follow the links:
+								</div>
+
+								<a href="https://www.ted.com" class="sites">
+									<img src="./img/ted-logo.png">
+								</a>
+								<a href="https://www.ted.com/about/programs-initiatives/tedx-program" class="sites">
+									<img src="./img/tedx-logo.png">
+								</a>
+
+								<div class="follow-us no-padding">
+									And on social media:
+								</div>
+
+								<div class="social-media">
+									<ul id="social-media-grid" class="small-block-grid-3">
+										<li><a href="https://www.facebook.com/tedxntua"><img
+													src="./img/logofb.png" /></a></li>
+										<li><a href="https://twitter.com/tedxntua"><img
+													src="./img/logotwitter.png" /></a></li>
+										<li><a href="http://instagram.com/tedxntua/"><img
+													src="./img/logoinsta.png" /></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="./js/vendor/foundation.min.js"></script>
+		<script src="./js/main.js"></script>
+		<script>
+			$(document).foundation();
+
+			$(document).foundation({
+				"magellan-expedition": {
+					active_class: 'active-nav-element', // specify the class used for active sections
+					threshold: 0, // how many pixels until the magellan bar sticks, 0 = auto
+					destination_threshold: 20, // pixels from the top of destination for it to be considered active
+					throttle_delay: 50, // calculation throttling to increase framerate
+					fixed_top: 0, // top distance in pixels assigend to the fixed element on scroll
+					offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+				}
+			});
+		</script>
+	</body>
+
+</html>
